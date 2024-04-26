@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-baseweb",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.1",
+    "@types/react": "^18.2.0",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "baseui": "^14.0.0",
+    "eslint-config-next": "^13.3.1",
+    "eslint-config-prettier": "^8.8.0",
+    "mapbox-gl": "^3.3.0",
+    "next": "^13.3.1",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.7",
+    "styletron-engine-monolithic": "^1.0.0",
+    "styletron-react": "^6.1.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}
